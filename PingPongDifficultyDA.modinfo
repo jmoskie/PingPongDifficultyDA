@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="2429ecc5-16e5-4733-ae8e-155abbb99dbe" version="1.5">
+	<Properties>
+		<Name>Ping Pong Difficulty DA 1.5</Name>
+		<Stability>Release</Stability>
+		<CompatibleVersions>2.0</CompatibleVersions>
+		<Teaser>Changes difficulty levels to give human players more benefits at lower levels.</Teaser>
+		<Description>Changes difficulty levels to give human players more benefits at lower levels.</Description>
+		<Authors>jmoskie</Authors>
+		<SpecialThanks>RushSecond, MyopicCat, Atlas627, oedali, verifiedhuman</SpecialThanks>
+	</Properties>
+	
+	<Files>
+		<File>Requirements.sql</File>
+		<File>StartUnits.sql</File>
+		<File>PlayerChanges.sql</File>
+	</Files>
+	
+	<Components>
+		<UpdateDatabase id="PingPongDifficultyDAComponent">
+			<Items>
+				<File>Requirements.sql</File>
+				<File>StartUnits.sql</File>
+				<File>PlayerChanges.sql</File>
+			</Items>
+		</UpdateDatabase>
+	</Components>
+</Mod>
